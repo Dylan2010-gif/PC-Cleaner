@@ -97,6 +97,7 @@ taskkill /f /im Perplexity.exe
 taskkill /f /im msedge.exe
 taskkill /f /im OfficeC2RClient.exe
 taskkill /f /im OfficeClickToRun.exe
+taskkill /f /im explorer.exe
 
 for /d %%i in (C:\Users\*) do (
     if exist "%%i\AppData\Local\Temp" (
